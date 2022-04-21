@@ -51,22 +51,3 @@ with open('dataset_MP1.csv', newline='') as csvfile:
         message = str(msg[randint(0, 6000)])
         print(message)                                
         ret= client1.publish("myfirst/test", message)    
-
-
-
-
-# lecture = csv.DictReader(open(r"C:\Users\elodi\Documents\Dossier\Etudes\I2_Epsi\17-MaintenanceIA/dataset_MP1.csv"))
-
-# compteur = 0 
-# data = list()
-# while compteur < 50:
-#     for lec in lecture:
-#         data.append(lec)
-#         compteur += 1
-# print(data)
-
-
-# # for d in data: 
-# #     print(d.values())
-# #     print(d.key())
-
